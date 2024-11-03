@@ -1,0 +1,25 @@
+{
+  "name": "native-tests-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon main.ts",
+    "test": "nodemon ./src/test.ts",
+    "test:sub": "nodemon ./src/subtest.ts",
+    "test:des": "nodemon ./src/describe.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
