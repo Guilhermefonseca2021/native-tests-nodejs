@@ -2,7 +2,6 @@ import { test } from 'node:test';
 import { ListManager } from '../ListManager';
 import assert from 'node:assert/strict';
 
-
 // Overall, this test verifies two things:
 test("test capacity after adding item", () => {
     const fruits = new ListManager(5);

@@ -6,7 +6,7 @@ class ListManager {
     this.#maxItems = max;
     this.items = [];
   }
-
+  
   capacity() {
     return this.#maxItems - this.items.length;
   }

@@ -7,7 +7,8 @@
     "dev": "nodemon main.ts",
     "test": "nodemon ./src/test.ts",
     "test:sub": "nodemon ./src/subtest.ts",
-    "test:des": "nodemon ./src/describe.ts"
+    "test:des": "nodemon ./src/describe.ts",
+    "todo": "nodemon ./src/todo.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.1",
+    "native-tests-nodejs": "file:",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {

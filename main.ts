@@ -1,4 +1,4 @@
-import express, { Express, Request, Response, Application } from "express";
+import express, { Request, Response, Application } from "express";
 import { ListManager } from "./ListManager";
 
 const app: Application = express();
